@@ -81,6 +81,11 @@ $END0405
 
 
 
+
+
+OUTPUT
+
+
 *                                       
 *   *                                   
 *   *   *                               
@@ -137,14 +142,6 @@ TTC      :  8
 LLC      :  0
 
 
-JOB ID   :  1403
- OUT OF DATA
-IC       :  1
-IR       :  GD30
-TTC      :  0
-LLC      :  0
-
-
 SHE SELLS   SEA SHELLS ON               
 JOB ID   :  402
  TIME LIMIT EXCEEDED 
@@ -170,9 +167,4 @@ IC       :  4
 IR       :  SR32
 TTC      :  3
 LLC      :  1
-
-
-
-OUTPUT
-
 
