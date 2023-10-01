@@ -1,1 +1,178 @@
 # Multiprogramming_Operating_System_Design
+
+• Virtual Machine
+• Instruction Set
+• Job 
+• Program Execution
+• Algorithm
+• Programming
+• Output
+
+INPUT
+$AMJ020200250004
+GD20PD20LR20SR30SR31PD30SR40SR41SR42PD40
+SR50SR51PD50SR60PD60H  
+$DTA
+*
+$END0202
+$AMJ030200100002
+GD20GD30LR31SR22LR32SR23PD20SR40PD40H
+$DTA
+CAT CAN
+    EAT RAT
+$END0302
+$AMJ010200070002
+GD20LR36CR20BT06GD30PD30PD20H
+$DTA
+RAM  IS OLDER THAN  SHRIRAM
+NOT IN EXISTANCE
+$END0102
+$AMJ040100090004
+GD20PD20GD30PD30GD40GD50LR20CR30BT10PD40
+PD50H
+$DTA
+ABCD
+ABCD
+DO NOT
+MATCH
+$END0401
+$AMJ150300200010
+GD20GD30LR30SR7AGD40LR40SR74GD50LR50
+SR75GD60GD80LR80SR71GD90LR90SR72PD70H
+$DTA
+SHE WENT
+ TO
+GET
+HER
+BAG
+WE
+WORK
+$END1503
+$AMJ140300500008
+GD30LR33SR37GD40LR40SR38LR41SR39PA30
+H
+$DTA
+SHE SELLS   SEA SHELLS ON
+SHORE
+$END1403
+$AMJ140300500008
+GD30LR33SR37GD40LR40SR38LR41SR39PA30
+H
+$DTA
+$END1403
+$AMJ040200040002
+GD30PD30LR30SR40PD3FH
+$DTA
+SHE SELLS   SEA SHELLS ON
+SHORE
+$END0402
+$AMJ040300040002
+GD30PD30LR30SR40PS40H
+$DTA
+SHE SELLS   SEA SHELLS ON
+SHORE
+$END0403
+$AMJ040500030002
+GD30PD30LR30SR32PD40H
+$DTA
+SHE SELLS   SEA SHELLS ON
+SHORE
+$END0405
+
+
+
+*                                       
+*   *                                   
+*   *   *                               
+*   *                                   
+JOB ID   :  202
+ LINE LIMIT EXCEEDED
+IC       :  15
+IR       :  PD60
+TTC      :  15
+LLC      :  4
+
+
+CAT CAN EAT RAT                         
+RAT                                     
+JOB ID   :  302
+ NO ERROR
+IC       :  10
+IR       :  H   
+TTC      :  10
+LLC      :  2
+
+
+JOB ID   :  102
+ INVALID PAGE FAULT
+IC       :  2
+IR       :  LR36
+TTC      :  1
+LLC      :  0
+
+
+ABCD                                    
+ABCD                                    
+MATCH                                   
+JOB ID   :  401
+ TIME LIMIT EXCEEDED
+IC       :  11
+IR       :  PD50
+TTC      :  10
+LLC      :  3
+
+
+JOB ID   :  1503
+IC       :  4
+IR       :  SR7A
+TTC      :  3
+LLC      :  0
+
+
+JOB ID   :  1403
+ OPERATION CODE ERROR
+IC       :  9
+IR       :  PA30
+TTC      :  8
+LLC      :  0
+
+
+JOB ID   :  1403
+ OUT OF DATA
+IC       :  1
+IR       :  GD30
+TTC      :  0
+LLC      :  0
+
+
+SHE SELLS   SEA SHELLS ON               
+JOB ID   :  402
+ TIME LIMIT EXCEEDED 
+IC       :  5
+IR       :  PD3F
+TTC      :  4
+LLC      :  1
+
+
+SHE SELLS   SEA SHELLS ON               
+JOB ID   :  403
+ TIME LIMIT EXCEEDED  And OPERATION CODE ERROR
+IC       :  5
+IR       :  PS40
+TTC      :  4
+LLC      :  1
+
+
+SHE SELLS   SEA SHELLS ON               
+JOB ID   :  405
+ TIME LIMIT EXCEEDED
+IC       :  4
+IR       :  SR32
+TTC      :  3
+LLC      :  1
+
+
+
+OUTPUT
+
+
